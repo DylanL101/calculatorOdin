@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 75%;
+   
+    
+    
+}
+#container{
+    border: 5px solid black;
+    
+}
+
+#screen {
+    width: 75%;
+    border: 3px solid black;
+    display: flex;
+    margin-left: 10px;
+    overflow: hidden;
+    
+}
