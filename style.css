@@ -1,11 +1,14 @@
+html, body{
+    min-height: 100%;
+}
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: aqua;
-    width: 75%;
-   
+   min-width: 100vh;
+   min-height: 100vh;
     
     
 }
@@ -15,10 +18,51 @@ body{
 }
 
 #screen {
+    background-color: antiquewhite;
     width: 75%;
     border: 3px solid black;
     display: flex;
     margin-left: 10px;
     overflow: hidden;
     
+}
+#keysFirst{
+    display:flex;
+    justify-content: space-around;
+    margin: 1px;
+    padding: 1px;
+}
+#keysTwo{
+    display:flex;
+    justify-content: space-around;
+    margin: 1px;
+    padding: 1px;
+
+}
+#keysThree{
+    display:flex;
+    justify-content: space-around;
+    margin: 1px;
+    padding: 1px;
+}
+#keysFour{
+    display:flex;
+    justify-content: space-around;
+    margin: 1px;
+    padding: 1px;
+}
+.operator{
+    background-color: red;
+}
+.operator:active {
+    background-color: aqua;
+}
+#equal{
+    background-color: rgb(73, 138, 73);
+}
+#equal:active{
+    background-color: yellow;
+}
+.btn:active{
+    background-color: purple;
 }
