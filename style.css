@@ -12,57 +12,49 @@ body{
     
     
 }
-#container{
+.container{
     border: 5px solid black;
     
 }
-
-#screen {
+.display{
     background-color: antiquewhite;
-    width: 75%;
-    border: 3px solid black;
+    border-bottom: 5px solid black;
+}
+.presentNumber{
+    background-color: antiquewhite;
+    min-width: 75px;
+    min-height:50px;
+    border: 2px solid antiquewhite;
+    border-bottom: 1px solid black;
     display: flex;
+    float: inline-end;
+    margin-top: 1px;
     margin-left: 10px;
     overflow: hidden;
+    font-size: 16px; 
     
 }
-#keysFirst{
-    display:flex;
-    justify-content: space-around;
-    margin: 1px;
-    padding: 1px;
-}
-#keysTwo{
-    display:flex;
-    justify-content: space-around;
-    margin: 1px;
-    padding: 1px;
 
-}
-#keysThree{
+
+.keys{
     display:flex;
     justify-content: space-around;
     margin: 1px;
     padding: 1px;
 }
-#keysFour{
-    display:flex;
-    justify-content: space-around;
-    margin: 1px;
-    padding: 1px;
-}
+
 .operator{
     background-color: red;
 }
 .operator:active {
     background-color: aqua;
 }
-#equal{
+.equal{
     background-color: rgb(73, 138, 73);
 }
-#equal:active{
+.equal:active{
     background-color: yellow;
 }
-.btn:active{
+.number:active{
     background-color: purple;
 }
